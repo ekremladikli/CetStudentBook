@@ -1,0 +1,24 @@
+@model CetStudentBook.Models.Book
+
+@{
+    ViewData["Title"] = "Kitabı Sil";
+}
+
+<h2>Kitabı Sil</h2>
+<h4 class="text-danger">Bu kitabı silmek istediğinize emin misiniz?</h4>
+<hr />
+<div>
+    <dl class="row">
+        <dt class = "col-sm-2">Kitap Adı</dt>
+        <dd class = "col-sm-10">@Model.Name</dd>
+        
+        <dt class = "col-sm-2">Yazar</dt>
+        <dd class = "col-sm-10">@Model.Author</dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Evet, Sil</button>
+        <a asp-action="Index" class="btn btn-secondary">Vazgeç</a>
+    </form>
+</div>
