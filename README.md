@@ -19,5 +19,7 @@ Tüm CRUD (Listeleme, Ekleme, Düzenleme, Silme) işlemleri manuel olarak koydum
 
 
 <img width="1796" height="954" alt="Ekran Resmi 2026-03-01 20 18 27" src="https://github.com/user-attachments/assets/765c5899-4adc-4249-a312-a0ea1feda0ac" />
+<img width="1800" height="954" alt="Ekran Resmi 2026-03-02 01 45 57" src="https://github.com/user-attachments/assets/94373d4c-0349-4758-a5e1-db431ed2da79" />
+<img width="1800" height="954" alt="Ekran Resmi 2026-03-02 01 46 58" src="https://github.com/user-attachments/assets/8b998cfd-9577-4d52-92b8-3345759da53d" />
 
 
